@@ -1,0 +1,24 @@
+{
+  "name": "notes-api-2324802010224",
+  "version": "1.0.0",
+  "description": "Template for Cloud Computing Labs",
+  "main": "index.js",
+  "scripts": {
+  "start": "node src/server.js",
+  "test": "node --test"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2324802010224-Hieu/notes-api-2324802010224.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/2324802010224-Hieu/notes-api-2324802010224/issues"
+  },
+  "homepage": "https://github.com/2324802010224-Hieu/notes-api-2324802010224#readme",
+  "dependencies": {
+    "express": "^5.3.0"
+  }
+}

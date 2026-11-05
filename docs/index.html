@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bài 1 - Hello Cloud API</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f3f6fb;
+      color: #263445;
+      max-width: 950px;
+      margin: 35px auto;
+      padding: 20px;
+      line-height: 1.7;
+    }
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 12px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 8px #dce3eb;
+    }
+    h1, h2 { color: #165b9c; }
+    table { width: 100%; border-collapse: collapse; }
+    th, td {
+      padding: 12px;
+      border: 1px solid #cbd5e1;
+      text-align: left;
+    }
+    th { background: #e4f0ff; }
+    li { margin-bottom: 10px; }
+    @media(max-width: 600px) {
+      body { padding: 10px; }
+      table { font-size: 13px; }
+      th, td { padding: 6px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>BÀI 1: HELLO CLOUD API</h1>
+    <p><b>Sinh viên:</b> Võ Đức Hiếu</p>
+    <p><b>MSSV:</b> 2324802010224</p>
+    <p><b>Nền tảng:</b> GitHub Codespaces</p>
+    <p><b>Ngày thực hiện:</b> 05/11/2026</p>
+  </div>
+
+  <div class="card">
+    <h2>1. So sánh môi trường lập trình</h2>
+    <table>
+      <tr>
+        <th>Tiêu chí</th>
+        <th>Máy cá nhân</th>
+        <th>Codespace</th>
+      </tr>
+      <tr>
+        <td>Thời gian chuẩn bị Node.js</td>
+        <td>Chưa cài đặt, chưa đo thời gian</td>
+        <td>Chưa điền thời gian đo thực tế</td>
+      </tr>
+      <tr>
+        <td>CPU và RAM</td>
+        <td>16 CPU logic, 15.6 GB RAM</td>
+        <td>2 CPU logic, 7.8 GB RAM</td>
+      </tr>
+      <tr>
+        <td>Hệ điều hành</td>
+        <td>Windows 11 Home Single Language</td>
+        <td>Linux 6.8.0-1064-azure</td>
+      </tr>
+      <tr>
+        <td>Truy cập từ thiết bị khác</td>
+        <td>Cần cấu hình mạng bổ sung</td>
+        <td>URL HTTPS qua Port Forwarding</td>
+      </tr>
+      <tr>
+        <td>Chi phí, cách đo</td>
+        <td>Chi phí phần cứng, điện, Internet</td>
+        <td>Compute và Storage;
+            Billing chưa hiển thị số liệu</td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="card">
+    <h2>2. Năm đặc tính NIST</h2>
+    <ol>
+      <li>
+        <b>On-demand self-service:</b>
+        Sinh viên tự tạo Codespace trực tiếp
+        trên GitHub mà không cần quản trị viên.
+      </li>
+      <li>
+        <b>Broad network access:</b>
+        API có thể được truy cập từ điện thoại
+        thông qua URL HTTPS khi cổng ở chế độ Public.
+      </li>
+      <li>
+        <b>Resource pooling:</b>
+        Codespace được cấp phát từ hệ thống tài
+        nguyên đám mây dùng chung của GitHub.
+      </li>
+      <li>
+        <b>Rapid elasticity:</b>
+        Có thể nhanh chóng khởi tạo, thay đổi
+        cấu hình hoặc dừng Codespace để
+        giải phóng tài nguyên.
+      </li>
+      <li>
+        <b>Measured service:</b>
+        GitHub cung cấp Billing Usage để
+        theo dõi thời gian tính toán và lưu trữ.
+      </li>
+    </ol>
+  </div>
+</body>
+</html>
